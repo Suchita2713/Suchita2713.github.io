@@ -1,6 +1,10 @@
-body{
-  
+@media screen and (min-width: 600px) {
+    font-size: 60px;
 }
+
+@media screen and (max-width: 600px) {
+    font-size: 30px;
+  }
 h2,h3 {
   display: block;
   font-size: xx-large;
