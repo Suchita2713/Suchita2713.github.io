@@ -1,9 +1,13 @@
 @media screen and (min-width: 600px) {
-    font-size: 60px;
+    .card-image,.card-title,.card-text{
+        display:inline-block;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    font-size: 30px;
+    .card-image,.card-title,.card-text{
+        display:block;
+    }
   }
 h2,h3 {
   display: block;
