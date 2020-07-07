@@ -5,7 +5,10 @@
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* Portrait */
@@ -14,7 +17,10 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* Landscape */
@@ -23,7 +29,10 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) 
   and (orientation: landscape) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
@@ -33,7 +42,10 @@
   and (device-width: 320px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* Portrait */
@@ -42,7 +54,10 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) 
   and (orientation: portrait) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* Landscape */
@@ -51,7 +66,10 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) 
   and (orientation: landscape) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* ----------- Galaxy S6 ----------- */
@@ -61,7 +79,10 @@
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* Portrait */
@@ -70,7 +91,10 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: portrait) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* Landscape */
@@ -79,12 +103,19 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: landscape) {
-
+.navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+    .navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -93,6 +124,10 @@
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+    .navbar navbar-expand-lg navbar-light bg-light
+    {
+      width:100vw;
+    }
 }
 h2,h3 {
   display: block;
